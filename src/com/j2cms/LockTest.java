@@ -21,7 +21,6 @@ public class LockTest {
 					try {
 						Thread.sleep(10);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					outputer.output("zhangxiaoxiang");
@@ -37,10 +36,9 @@ public class LockTest {
 					try {
 						Thread.sleep(10);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					outputer.output3("lihuoming");
+					outputer.output("lihuoming");
 				}
 				
 			}
